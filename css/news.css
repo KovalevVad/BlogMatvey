@@ -38,3 +38,9 @@
 .wrapper__content-text > a {
   color: #56a6c5;
 }
+
+#archive {
+  justify-content: flex-start;
+  margin-left: 0px;
+  margin-bottom: 210px;
+}

@@ -1,0 +1,36 @@
+.wrapper > p,
+.wrapper > span,
+.wrapper__button p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 123%;
+  color: var(--black);
+}
+
+.wrapper > span {
+  font-size: 1.8rem;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.wrapper {
+  align-items: flex-start;
+  margin-top: 77px;
+  margin-bottom: 50px;
+}
+
+.wrapper__button {
+  display: flex;
+  margin-top: 0px;
+}
+
+.wrapper__button p {
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 80px;
+}
+
+.wrapper__button img {
+  margin-top: 45px;
+}
