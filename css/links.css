@@ -1,0 +1,39 @@
+.wrapper {
+  margin-top: 75px;
+}
+
+.wrapper__content {
+  margin-top: 40px;
+}
+
+.wrapper__content > a {
+  display: block;
+  width: auto;
+  text-align: center;
+}
+
+.wrapper__content-planet {
+  display: flex;
+  height: auto;
+  margin-top: 29px;
+}
+
+.wrapper__content-planet > a:first-child,
+.wrapper__content-planet > a:last-child,
+.wrapper__content > a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 133%;
+  color: var(--black);
+}
+
+.wrapper__content-planet > a:first-child {
+  margin-top: 61px;
+  margin-right: 30px;
+}
+
+.wrapper__content-planet > a:last-child {
+  margin-top: 124px;
+  margin-left: 23px;
+}

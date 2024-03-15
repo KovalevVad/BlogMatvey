@@ -1,0 +1,18 @@
+.wrapper {
+  margin-top: 75px;
+}
+
+.wrapper__list {
+  grid-template-columns: 1fr 1fr 1fr;
+  width: auto;
+  gap: 32px;
+}
+
+.wrapper__list > .wrapper__list-item:last-child {
+  background-color: var(--green);
+}
+
+.wrapper__list-item > p {
+  margin-top: 58px;
+}
+

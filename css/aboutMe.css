@@ -1,0 +1,27 @@
+.wrapper {
+  margin-top: 75px;
+}
+
+.wrapper__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.wrapper__content > p,
+.wrapper__content > span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 133%;
+  color: var(--black);
+}
+
+.wrapper__content > span {
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+footer {
+  margin-top: 72px;
+}
